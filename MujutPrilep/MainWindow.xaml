@@ -1,0 +1,15 @@
+﻿<Window x:Class="MujutPrilep.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MujutPrilep"
+        mc:Ignorable="d"
+        Title="Demo" Height="250" Width="800" KeyUp="KeyIsUp" KeyDown="KeyIsDown">
+    <Canvas Name ="Canvas" Focusable="True" Background="Black">
+        <Image Name="mujPrilep" Width="50" Height="50" Source="items/118467164_323126185592859_1467401833640827097_n (1).png" Canvas.Left="20" Canvas.Top="30"/>
+        <Image x:Name="pipeTop" Width="50" Height="100" Source="items/pipeTop.png" Canvas.Left="705" Canvas.Top="-45"/>
+        <Image x:Name="pipeBottom" Width="50" Height="100" Source="items/pipeBottom.png" Canvas.Left="705" Canvas.Top="171" RenderTransformOrigin="1.457,0.441"/>
+        
+    </Canvas>
+</Window>
